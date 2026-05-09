@@ -10,4 +10,5 @@ def factorial(n):
 
 if __name__ == "__main__":
     if len(sys.argv) > 1:
-        print(factorial(int(sys.argv[1])))
+        arg = int(sys.argv[1])
+        print(factorial(arg))
